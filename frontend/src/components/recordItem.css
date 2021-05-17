@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+
+.record{
+    width:200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 1%;
+    /*box-shadow: 5px 4px 5px rgba(80, 80, 80, 0.5);*/
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    transition: all .3s ease-in;
+    /*filter: brightness(1.3);*/
+    z-index: 1000;
+    
+
+
+}
+
+
+.recordContainer:hover .record{
+    animation: fade .6s ease-in forwards;
+  
+}
+
+@keyframes fade {
+    100%{
+        box-shadow: 0 0 1vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206),  0 0 .4vw rgb(0,123,206);
+       
+    }
+    
+}
+
+
+
+.recordContainer{
+    width: 240px;
+    height: 200px;
+    text-align: left;
+    padding: 60px 60px 60px 60px;
+}
+
+
+
+.recordContainer:hover .record{
+    transform: rotateY(180deg);
+    
+}
+
+.recordContainer:hover .gold{
+    opacity: 1;
+    transform: rotateY(-180deg);
+
+}
+
+
+.gold{
+    width:200px;
+    height:200px;
+    opacity: 0;
+    transition: opacity   .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+ }
+   
+
+
+.recVideo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2%;
+    background-size:cover;
+    
+
+}
+.info{
+    color:white;
+    padding-top: 15px;
+    line-height: 15pt;
+    width:230px;
+}

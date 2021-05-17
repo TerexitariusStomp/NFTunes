@@ -1,0 +1,48 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"SongClip": "./contracts/SongClip.cdc",
+		"Profile": "./contracts/Profile.cdc",
+		"FungibleToken": "./contracts/standard/FungibleToken.cdc",
+		"Marketplace": "./contracts/Marketplace.cdc"
+   },
+	"networks": {
+		"emulator": {
+			"host": "127.0.0.1:3569",
+			"chain": "flow-emulator"
+		},
+		"mainnet": {
+			"host": "access.mainnet.nodes.onflow.org:9000",
+			"chain": "flow-mainnet"
+		},
+		"testnet": {
+			"host": "access.devnet.nodes.onflow.org:9000",
+			"chain": "flow-testnet"
+		}
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"keys": "d6268207c5ad3e97a9e0bfd8bee0cf9017a3a35e4cedc900440d255e5d00a241",
+			"chain": "flow-emulator"
+		},
+		"testnet-account":{
+			"address": "0x8c70a3919b2eae8a",
+			"keys": "eb0127cfe25e7b46c8ac9b7ef753c113fdab7f46056dd865278538ac3b02873e",
+			"chain": "flow-testnet"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			 "testnet-account": ["SongClip", "Profile", "FungibleToken", "Marketplace"]
+		},
+		"emulator": {
+			"emulator-account": ["SongClip", "Profile", "FungibleToken", "Marketplace"]
+	   }
+   }
+}

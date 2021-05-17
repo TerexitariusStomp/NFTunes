@@ -1,0 +1,14 @@
+Print Ids from testnet-account:
+
+Flow scripts execute ./scripts/meta.cdc --network=testnet
+
+Flow scripts execute ./scripts/ids.cdc --network=testnet
+
+Script must return a value
+Run transaction
+
+flow transactions send ./transactions/MintToken.cdc --signer testnet-account --network testnet --host access.testnet.nodes.onflow.org:9000
+
+flow transactions send ./transactions/Marketplace/SetupMarket.cdc --signer testnet-account --network testnet --host access.testnet.nodes.onflow.org:9000
+
+flow transactions send ./transactions/Marketplace/ListTokenForSale.cdc --signer testnet-account --network testnet --host access.testnet.nodes.onflow.org:9000

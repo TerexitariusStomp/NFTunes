@@ -1,0 +1,15 @@
+  <div key={token.uri} className="listing">
+                <div>
+                  <video loop={true} preload="auto" autoPlay={true} width="85%">
+                    <source  src={`https://ipfs.io/ipfs/${token.uri.split("://")[1]}`} type="video/mp4" />
+                  </video>
+                {/*<img className = "artistImage" src="https://www.coupdemainmagazine.com/sites/default/files/styles/hero_image/public/article/17216/hero-17216-885151998.jpg?itok=y6Zxh1Ay"></img>*/}
+                  <h3>{token.artisit}</h3>
+                  <h4>Stats</h4>
+                  <p>Age: {token.age}</p>
+                  <p>rating: {token.rating}</p>
+                  <h4>Price</h4>
+                  <p>{token.price} Pinnies</p>
+                  <button className="btn-primary">Buy Now</button>
+                </div>
+              </div>
