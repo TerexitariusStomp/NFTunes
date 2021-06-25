@@ -29,7 +29,7 @@
 
 @keyframes fade {
     100%{
-        box-shadow: 0 0 1vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206),  0 0 .4vw rgb(0,123,206);
+        /*box-shadow: 0 0 1vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206), 0 0 .5vw rgb(0,123,206),  0 0 .4vw rgb(0,123,206);*/
        
     }
     
