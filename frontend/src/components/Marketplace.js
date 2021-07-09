@@ -155,6 +155,7 @@ const Marketplace = () => {
           })
           
         }
+        <div className="shelf"></div>
         </div>
     
   );

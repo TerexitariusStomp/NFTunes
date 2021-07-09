@@ -26,11 +26,11 @@
 
 
 .recordContainer{
-    width: 430px;
+    width: 460px;
     text-align: left;
     padding-left: 60px;
     padding-right: 60px;
-    padding-bottom: 60px;
+    
     
     
 
@@ -111,7 +111,7 @@ background-color: #202020d0;
     
 
 }
-
+/*
 .shelf{
     background:  #966F33;
     width: 400px;
@@ -144,7 +144,7 @@ background-color: #202020d0;
         top: -10px;
         left: 100%;
     }
-
+*/
 .info{
     color:rgb(0, 0, 0);
     padding-top: 15px;

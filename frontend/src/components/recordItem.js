@@ -21,7 +21,7 @@ function RecordItem(props) {
                     <p>Lyric: "{props.lyric}"</p>
                 </div>
 
-                <div className="shelf"></div>
+                
 
                 </div>
 
