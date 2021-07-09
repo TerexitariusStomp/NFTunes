@@ -8,7 +8,7 @@ import {AuthCluster} from "../AuthCluster"
 export default function Products(){
     return (
        <div className = "market">
-           <div className = "bg-image"></div>
+          
             <AuthCluster/>
             <div className="marketItems">
             <Marketplace/>

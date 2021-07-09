@@ -1,5 +1,5 @@
 .navbar {
-    
+   
     height: 80px;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: rgb(0, 0, 0);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -45,6 +45,7 @@
     width: 400vh;
     justify-content: end;
     margin-right: 2rem;
+    
    
   }
   
@@ -53,7 +54,7 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     text-decoration: none;
