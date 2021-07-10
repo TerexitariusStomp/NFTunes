@@ -8,7 +8,7 @@ function RecordItem(props) {
                 <div className = "recordContainer">
                 <div className="gold" >
                     <video className = "recVideo" autoplay src={props.src} autoPlay loop muted></video>
-                    <div className = "recCenter"></div>
+                    <div className = "recCenter" style={{backgroundImage: `url(${props.image})`}} ></div>
                 </div>
                 <div className = "record" style={{backgroundImage: `url(${props.image})`}}>
       

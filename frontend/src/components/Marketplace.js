@@ -132,7 +132,7 @@ const Marketplace = () => {
   return (
         <div className="token-data">
         <div class="container">
-          <div class="neon">RECORDS</div>
+          <h1 class="neon">good Times</h1>
         </div>
         {
        

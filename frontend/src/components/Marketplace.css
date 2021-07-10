@@ -20,6 +20,7 @@
   position: relative;
   right:100px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-image: url("./pages/images/wood.jpg");
   
 }
 
@@ -33,9 +34,13 @@
   position: absolute;
   top: -20px;
   left: 8px;
+  background-image: url("./pages/images/wood.jpg");
+  border:1px solid black;
+  
 }
 .shelf::after
   {
+      
       content: '';
       display: inline-block;
       background:  #725326;
@@ -45,6 +50,8 @@
       position: absolute;
       top: -10px;
       left: 100%;
+      background-image: url("./pages/images/wood.jpg");
+      border:1px solid black;
   }
 
 
@@ -81,35 +88,30 @@
    margin: auto;
   width: 50%;
 }
-
+@import url(//fonts.googleapis.com/css?family=Vibur);
 .neon {
-  font-family: neon;
-  color: #FB4264;
-  font-size: 8vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #F40A35;
-  text-align: center;
-  border:0px;
+  font: 400 19vh "Vibur";
+  text-align:center;
+  
 
   /*font-family: 'Dela Gothic One', cursive;*/
 }
 
 
 .neon {
-  animation: neon 5s ease infinite;
-  -moz-animation: neon 5s ease infinite;
-  -webkit-animation: neon 5s ease infinite;
+  animation: neon 10s ease infinite;
+  -moz-animation: neon 10s ease infinite;
+  -webkit-animation: neon 10s ease infinite;
 }
 
 @keyframes neon {
   0%,
   100% {
-
-    text-shadow: 0 0 1vw #ff0800, 0 0 3vw #ff0800, 0 0 5vw #ff0800, 0 0 10vw #ff0800, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #ffc800;
+    text-shadow: 0 0 .5vw #3ec7c0, 0 0 1vw #B2FBF2, 0 0 5vw #B2FBF2, 0 0 10vw #B2FBF2, 0 0 1vw #020201, 1vw 1vw 1vw #327a6e;
+    color: #B2FBF2;
   }
   50% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 5vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
+    text-shadow: 0 0 .5vw #3ea189, 0 0 1vw #379c91, 0 0 5vw #20b6a4, 0 0 10vw #B2FBF2, 0 0 1vw #020201, .8vw .8vw .8vw #1d6a8d;
+    color: #B2FBF2;
   }
 }
