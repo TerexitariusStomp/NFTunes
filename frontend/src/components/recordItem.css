@@ -46,6 +46,7 @@
     animation: fade .2s ease-in forwards alternate;
 }
 
+
 @keyframes fade{
     100%{
         opacity: 0;
