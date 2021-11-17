@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className = 'hero-container'>
-            <video className = "heroVid" src="https://ipfs.io/ipfs/Qma4oUnpJpsWYiERXCp4CeotP6YELi7u6rv2q5LQhvk2o1" autoPlay loop muted/>
+            <video className = "heroVid" src="https://ipfs.io/ipfs/QmZC6sSdT51Ci6PxDYec9KkxcZUV5RwXVs7oVruzhtUqXd" autoPlay loop muted/>
             <h1>NFTunes</h1>
             <p>Collect, Sell, Connect</p>
             <div className="hero-btns">
